@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<link rel="stylesheet" type="text/css" href="inde.css">
+<title>COWIN</title>
+<img src="cowin.jpg" alt="Girl in a jacket" width="400" height="300">
+</head>
+
+<body>
+    <div class="testbox">
+        <form action="C:/Users/abhin/Desktop/lab3/Lab5/thank.html">
+            <div class="banner">
+                <h1>COWIN REGISTRATION</h1>
+            </div>
+            <div class="item">
+                <p>Name</p>
+                <div class="name-item">
+                    <input type="text" name="name" placeholder="First" required/>
+                    <input type="text" name="name" placeholder="Last" required/>
+                </div>
+            </div>
+            <div class="item">
+                <p>Contact Info</p>
+                <div class="name-item">
+                    <input type="text" name="email" placeholder="Email" required />
+                    <input type="text" name="phone" placeholder="Phone" required />
+                </div>
+            </div>
+        
+            <div class="item">
+                <p>Contact Address</p>
+                <input type="text" name="name" placeholder="Street address" required/>
+                <input type="text" name="name" placeholder="Street address line 2" />
+                <div class="city-item">
+                    <input type="text" name="name" placeholder="City" required/>
+                    <input type="text" name="name" placeholder="Region"required />
+                    <input type="text" name="name" placeholder="Postal / Zip code"required />
+                    <select>
+                        <option value="">Country</option>
+                        <option value="1">India</option>
+                        <option value="2">SriLanka</option>
+                        <option value="3">Bangladesh</option>
+                        <option value="4">Pakisthan</option>
+                        <option value="5">Malaysia</option>
+                    </select>
+                </div>
+            </div>
+            <div class="question">
+                <p>Select the Vaccines</p>
+                <div class="question-answer">
+                    <div>
+                        <input type="radio" value="none" id="radio_1" name="vehicle" />
+                        <label for="radio_1" class="radio"><span>Comirnaty</span></label>
+                    </div>
+                    <div>
+                        <input type="radio" value="none" id="radio_2" name="vehicle" />
+                        <label for="radio_2" class="radio"><span>Sputnik V</span></label>
+                    </div>
+                    <div>
+                        <input type="radio" value="none" id="radio_3" name="vehicle" />
+                        <label for="radio_3" class="radio"><span>Covaxin</span></label>
+                    </div>
+                    <div>
+                        <input type="radio" value="none" id="radio_4" name="vehicle" />
+                        <label for="radio_4" class="radio"><span>Covishield</span></label>
+                    </div>
+                </div>
+            </div>
+                     
+				<div class="item">
+                <div class="city-item">
+                    <p> Vaccination Dose</p>
+                    <select>
+                        <option value="">1</option>
+                        <option value="1">2</option>
+                    </select>
+                </div>
+            </div>
+            <div class="item">
+                <p></p> <label for="Dateofbirth">Vaccination Date</label>
+                <input type="date" id="dateofbirth" name="dateofbirth" min="2021-08-20" max="2021-10-30">
+            </div>
+            <div class="item">
+                <p>Preffered Time</p>
+                <input type="time" name="name" min= "09:00" max="17:00"/>
+                <i class="fas fa-clock"></i>
+            </div>
+           
+            <div class="item">
+                <p>Any Medical History</p>
+                <textarea rows="3"></textarea>
+            </div>
+            <div class="btn-block">
+                <button type="submit" href="cowin.html">CONFIRM ORDER</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

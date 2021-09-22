@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+   
+    <link rel="stylesheet" href="cowinselect.css">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+<audio id="myAudio">
+  <source src="horse.ogg" type="audio/ogg">
+  <source src="horse.mp3" type="audio/mpeg">
+</audio>
+<div class="container">
+    <div class="title">Hello,</div>
+	&nbsp;
+      <form action="#">
+	  <div class="content">
+	   <span class="gender-details">Vaccination Preference </span>
+	  <select name="favorites"> 
+	  <option selected value="cvs" >Covishield</option>
+            <option value="cx">Covaxin</option>
+            <option value="s">Sputnik</option>
+            <option value="m">Pfizer Moderna</option> 
+	  </select>
+			
+          <div class="gender-details">
+		    &nbsp;
+          <input type="radio" name="gender" id="dot-1">
+          <input type="radio" name="gender" id="dot-2">
+		
+          <span class="gender-title">Dose 1 Vaccination ?</span>
+          <div class="category">
+            <label for="dot-1">
+            <span class="dot one"></span>
+            <span class="gender">Yes</span>
+          </label>
+          <label for="dot-2">
+            <span class="dot two"></span>
+            <span class="gender">No</span>
+          </label>
+          </div>
+		  <div class = "category">
+		<label for="Date Selction">Select Date:</label>
+		<input type="date" id="birthday" name="birthday">
+		</div>
+		  <input type="radio" name="gender" id="dot-1">
+          <input type="radio" name="gender" id="dot-2">
+          <span class="gender-title">Dose 2 Vaccination ?</span>
+          <div class="category">
+            <label for="dot-1">
+            <span class="dot one"></span>
+            <span class="gender">Yes</span>
+          </label>
+          <label for="dot-2">
+            <span class="dot two"></span>
+            <span class="gender">No</span>
+          </label>
+          </div>
+		  <div class = "category">
+		<label for="Date Selction">Select Date:</label>
+		<input type="date" id="birthday" name="birthday">
+		</div>
+		 <div class = "gender-details">
+        <div class="button">
+          <input type="button"  value="Submit" onclick="window.location.href='file:///C:/Users/abhin/Desktop/lab3/congrats.html'" />
+        </div>
+		</div>
+      </form>
+  </div>
+</body>
+</html>
